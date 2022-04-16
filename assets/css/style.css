@@ -1,13 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Roboto:wght@100;300&display=swap');
 
-body{
-    font-family:Baskervville, serif ; 
-    font-weight: 300;   
+body {
+    font-family: Baskervville, serif;
+    font-weight: 300;
+    color: #252525;
 }
 
 * {
-    margin:0 ;
+    margin: 0;
     padding: 0;
     border: none;
 }
-    
+
+h1,
+h2 {
+    font-family: baskervville, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: black;
+
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+}
